@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  remote_user: mengyinggang
+  tasks:
+  - name: 
+    terraform: 
+      force_init: true
+      project_path: /Users/mengyinggang/Code/zonameng-terrafrom-vsphere_virtual_machine
+      state: present
